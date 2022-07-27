@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    background-color: #000000;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+header nav .menu .brand img{
+    width: 120px;
+
+}
+.brand{
+    padding-left: 10px;
+    padding-right: 200px;
+}
+header nav .menu .links{
+    display: flex;
+}
+header nav .menu .links a{
+    padding: 16px 12px;
+    color: white;
+    text-decoration: none;
+
+}
+  .container {
+    position: relative;
+  }
+  
+  /* Bottom left text */
+  .text-block {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .contenedor{
+    width: 90%;
+    max-width: 1200 px;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+  }
+  .menu-navegacion {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+  }
+      /*Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box figure img{
+    width: 250px;
+}
+.box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.red-social a:hover{
+    color: aqua;
+}
+.grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+.button {
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 48px;
+    cursor: pointer;
+    }
+/*GRID NOVEDADES*/
+.gridNovedades {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+  }
+  
+  .gridNovedades div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #171717;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .gridNovedades div:hover {
+    -webkit-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.9);
+            box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.9);
+  }
+  
+  .gridNovedades div .iluminacion {
+    -webkit-box-shadow: 0px 0px 10px white;
+            box-shadow: 0px 0px 10px white;
+  }
+  
+  .gridNovedades img {
+    width: auto;
+    height: 300px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+  
+  .gridNovedades h4 {
+    color: white;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .gridNovedades h5 {
+    color: white;
+    text-align: center;
+  }
+  
+  .gridNovedades h5 {
+    color: white;
+    text-align: center;
+  }
+  
+  .gridNovedades p {
+    text-align: center;
+    color: #ce2727;
+    margin: 7px;
+    padding: 0px;
+  }
+ 
