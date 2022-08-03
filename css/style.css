@@ -39,10 +39,18 @@ header nav .menu .links a{
     text-decoration: none;
 
 }
-  .container {
+  .container-foto {
     position: relative;
   }
-  
+  .productos-inicio {
+background-color: hsl(0, 0%, 0%);
+  }
+  .productos-inicio h4 {
+    color: white;
+    text-align: center;
+    padding: 5px;
+  }
+ 
   /* Bottom left text */
   .text-block {
     position: absolute;
@@ -79,6 +87,11 @@ header nav .menu .links a{
     grid-template-columns: repeat(3, 1fr);
     grid-gap:50px;
     padding: 45px 0px;
+}
+.footer-contacto {
+bottom: 0;
+position: absolute;
+width: 100%;
 }
 .box figure{
     width: 100%;
